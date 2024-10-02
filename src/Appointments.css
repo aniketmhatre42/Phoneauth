@@ -1,0 +1,105 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #FFC371, #FF5F6D);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  
+  .doctor-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .doctor-list li {
+    margin: 10px;
+  }
+  
+  .doctor-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #6C5B7B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .doctor-button:hover {
+    background-color: #355C7D;
+  }
+  
+  .time-slots {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .time-slot-button {
+    margin: 5px;
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #F67280;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .time-slot-button:hover {
+    background-color: #C06C84;
+  }
+  
+  .confirmation {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .confirmation button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #6C5B7B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .confirmation button:hover {
+    background-color: #355C7D;
+  }
+  
+  .confirmation p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

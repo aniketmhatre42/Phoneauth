@@ -1,0 +1,146 @@
+/* Container styling */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f7fafc; /* Light gray background */
+  transition: background-color 0.3s ease;
+}
+
+/* Background color change on hover */
+.flex:hover {
+  background-color: #e2e8f0; /* Slightly darker gray on hover */
+}
+
+/* Card styling */
+.bg-white {
+  background-color: white;
+  padding: 5.5rem; /* Increased padding */
+  border-radius: 100px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  width: 100%;
+  max-width: 500px; /* Increased max width */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Scale up and deepen shadow on hover */
+.bg-white:hover {
+  transform: scale(1.03);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading styling */
+.text-center {
+  text-align: center;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+/* Change heading color on hover */
+.text-2xl:hover {
+  color: #1a202c; /* Darker shade of text */
+}
+
+/* Form field styling */
+.w-full {
+  width: 100%;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.border {
+  border: 1px solid #4fd953;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rounded-lg {
+  border-radius: 8px;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+/* Label styling */
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+.block {
+  display: block;
+  color: #4a4a4a;
+  transition: color 0.3s ease;
+}
+
+/* Label color change on hover */
+.block:hover {
+  color: #2d3748; /* Darker gray on hover */
+}
+
+/* Button styling */
+.bg-blue-500 {
+  background-color: #4299e1; /* Blue button */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.text-white {
+  color: white;
+}
+
+.hover\:bg-blue-600:hover {
+  background-color: #3182ce; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Success/Error messages */
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.text-red-500 {
+  color: #f56565; /* Red color for error messages */
+}
+
+.text-green-500 {
+  color: #48bb78; /* Green color for success messages */
+}
+
+/* Input focus effect */
+input:focus {
+  border-color: #4299e1; /* Blue border on focus */
+  outline: none;
+  box-shadow: 0 0 5px rgba(66, 153, 225, 0.5); /* Soft blue glow on focus */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .bg-white {
+    padding: 2rem; /* Adjusted padding for mobile */
+    max-width: 90%;
+    transition: padding 0.3s ease;
+  }
+
+  /* Increase padding on hover for mobile */
+  .bg-white:hover {
+    padding: 2.5rem;
+  }
+}
